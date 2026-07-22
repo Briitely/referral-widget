@@ -55,7 +55,7 @@ export default function Home() {
       <header className="widget-header">
         <div>
           <h1>Leads by Referral Source</h1>
-          <p>Counts only referral tags configured for this widget.</p>
+          <p>January 1 - Today {new Date().getFullYear()}(.</p>
         </div>
         <button type="button" onClick={() => void loadData()} disabled={loading}>
           {loading ? "Loading…" : "Refresh"}
